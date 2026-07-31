@@ -40,4 +40,24 @@ git push origin master
 ```
 git branch
 git branch desarrollo
+git branch
+```
+## Cambiar a la nueva rama
+```
+git switch desarrollo
+```
+o
+```
+git checkout desarrollo
+```
+
+- Modificamos el codigo duente
+- Luego registrar los cambios con:
+```
+git add.
+git commit -m "nuevo cambio en la rama desarrollo"
+```
+- Luego realizamos el git push a github
+```
+git push origin desarrollo
 ```
