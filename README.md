@@ -20,3 +20,24 @@ git add index.html README.md
 ```
 git commit -m "proyecto base"
 ```
+# Publicación en GITHUB
+- Crear un repositorio en GITHUB.
+
+## Asociar el repositorio (local) con el repositorio (remoto)
+```
+git remote add origin https://github.com/shecidxd/ramas-git-fullstack.git
+```
+## Verificar si ya está asociado (local con el remoto)
+```
+git remote -v
+```
+
+## Subir o publicar todos los cambios a GITHUB
+```
+git push origin master
+```
+## Para crear una nueva rama
+```
+git branch
+git branch desarrollo
+```
